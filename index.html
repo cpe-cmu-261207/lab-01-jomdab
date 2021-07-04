@@ -1,13 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Resume Website</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    p {
+      font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+
+    h1 {
+      font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    }
+  </style>
 </head>
-<body>
-  <h2>yo yooo</h2>
+
+<body class="bg-pink-50 bg-no-repeat " style="background-image: url(./img/me.jpg) ;background-size:50% ">
+  <div class="space-y-4">
+    <!-- navigation bar -->
+    <div
+      class=" bg-black flex max-w-screen-xl mx-auto py-4 mt-4 space-x-36 font-semibold text-xl justify-center text-pink-300 ring-5 ring-gray-300 rounded-full shadow-xl">
+      <p>
+        Home
+      </p>
+      <p>
+        Experience
+      </p>
+      <p>
+        Contact
+      </p>
+      </tr>
+      </table>
+    </div>
+    <!-- introduce -->
+    <div class="space-y-1">
+      <h1 class="text-7xl mr-96 pr-44 text-right">
+        Hello
+      </h1>
+      <p class="text-right mr-96 pr-20">
+        My name is Supak Chainetkasem.
+      </p>
+      <p class="text-right mr-56 pr-2">
+        I study at Chiangmai university, major Computer Engineering.
+      </p>
+      <p class="text-right mr-80 pr-8 ">
+        I like programming and building games for fun.
+      </p>
+    </div>
+    <!-- my skill -->
+    <div class="ml-96 pl-10 space-y-8">
+      <div>
+        <h1 class="text-5xl mr-80  text-right">
+          My skill
+        </h1>
+      </div>
+      <!-- programming -->
+      <div
+        class="bg-black flex max-w-2xl ml-96 text-pink-300 ring-5 ring-gray-300 rounded-3xl shadow-xl space-x-4">
+        <img class="w-32 h-32 rounded-l-3xl" src="./img/computer.jpg">
+        <div>
+        <h1 class="pt-2 pb-2 text-xl font-bold">
+          programming
+        </h1>
+        <p>
+          I can coding with c++ and python and now I studying java <br>
+          so I am going to can use them in future.
+        </p>
+       </div>
+      </div>
+      <!--ui web designing-->
+      <div
+        class="bg-black flex max-w-2xl ml-96 text-pink-300 ring-5 ring-gray-300 rounded-3xl shadow-xl space-x-4">
+        <img class="w-32 h-32 rounded-l-3xl" src="./img/web.jpeg">
+        <div>
+        <h1 class="pt-2 pb-2 text-xl font-bold">
+          ui web designing
+        </h1>
+        <p>
+          I can designing ui for website with html and css and now <br>
+          I studying other detail for website 
+        </p>
+       </div>
+      </div>
+    </div>
+  </div>
+  <p class="ml-96 pl-96 text-center text-gray-600 mt-5">Copyright © 2021 My resume</p>
 </body>
+
 </html>
